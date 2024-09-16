@@ -15,7 +15,7 @@ pip freeze
 '''
 Desactivation de l'environnement virtuel (si besoin)
 '''bash
-desactivate
+deactivate
 '''
 
 ## Demarrage application
