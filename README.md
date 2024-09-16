@@ -12,3 +12,7 @@ python3 -m venv venv
 # Installation librairies listées dans 'requirements.txt'
 pip install -r requirements.txt
 '''
+Desactivation de l'environnement virtuel (si besoin)
+'''bash
+desactivate
+'''
