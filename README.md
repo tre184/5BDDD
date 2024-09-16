@@ -11,8 +11,16 @@ python3 -m venv venv
 .\venv\Scripts\activate
 # Installation librairies listées dans 'requirements.txt'
 pip install -r requirements.txt
+pip freeze
 '''
 Desactivation de l'environnement virtuel (si besoin)
 '''bash
 desactivate
 '''
+
+## Demarrage application
+'''bash
+fastapi dev main.py
+'''
+Accès au swagger sur http://127.0.0.1:8000/docs
+Accès à la page index : http://127.0.0.1:8000/static/index.html
