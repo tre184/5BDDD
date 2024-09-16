@@ -2,3 +2,6 @@
 
 Projet pour utilisation de _FastAPI_
 
+
+## Installation
+
