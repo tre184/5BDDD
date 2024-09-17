@@ -4,7 +4,11 @@ Projet pour utilisation de _FastAPI_
 
 
 ## Installation
-Lien documentation : https://fastapi.tiangolo.com/virtual-environments ou https://docs.python.org/3/library/venv.html
+Lien documentation
+VENV: https://fastapi.tiangolo.com/virtual-environments/ et https://docs.python.org/3/library/venv.html
+Pages statiques : https://fastapi.tiangolo.com/reference/staticfiles/
+Redirections : https://fastapi.tiangolo.com/uk/advanced/custom-response/#redirectresponse
+Templates : https://fastapi.tiangolo.com/advanced/templates/
 
 ```bash
 # Création environnement virtuel & activation
@@ -22,7 +26,7 @@ deactivate
 
 ## Démarrage application
 
-Variables d'environnement à définir  (exemple):
+Variables d'environnement à définir dans un fichier .env  (exemple):
 ```text
 TEST=147852369
 BDD_URL=sqlite://:memory:
