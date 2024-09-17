@@ -14,7 +14,7 @@ python3 -m venv venv
 pip install -r requirements.txt
 pip freeze
 ```
-Desactivation de l'environnement virtuel (si besoin)
+Désactivation de l'environnement virtuel (si besoin)
 ```bash
 deactivate
 ```
