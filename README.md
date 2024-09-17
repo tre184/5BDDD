@@ -14,12 +14,20 @@ python3 -m venv venv
 pip install -r requirements.txt
 pip freeze
 ```
+
 Désactivation de l'environnement virtuel (si besoin)
 ```bash
 deactivate
 ```
 
-## Demarrage application
+## Démarrage application
+
+Variables d'environnement à définir  (exemple):
+```text
+TEST=147852369
+BDD_URL=sqlite://:memory:
+```
+
 ```bash
 fastapi dev main.py
 ````
