@@ -26,3 +26,8 @@ def read_item(request: Request, item_id: int, q: Union[str, None] = None):
     return templates.TemplateResponse(
         request=request, name="item.html", context={"item_id": item_id, "q": q}
     )
+
+@app.get("/user/{user_id}", response_model=schema.User)
+def read_user(request: Request, user_id: int):
+    user = schema.User(id=user_id, name= 'goudot', email='EGO@gmail.com')
+    return user

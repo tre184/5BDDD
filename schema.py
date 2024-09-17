@@ -10,9 +10,9 @@ class Delivery(BaseModel):
 class User(BaseModel):
     id: int
     name: str = 'John Doe'
-    signup_ts: datetime | None
+    #signup_ts: datetime | None
     email: EmailStr
-    tastes: dict[str, PositiveInt]
+    #tastes: dict[str, PositiveInt]
 
 
 print('Schema OK')
