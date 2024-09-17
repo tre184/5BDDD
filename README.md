@@ -4,6 +4,7 @@ Projet pour utilisation de _FastAPI_
 
 
 ## Installation
+Lien documentation : https://fastapi.tiangolo.com/virtual-environments ou https://docs.python.org/3/library/venv.html
 
 '''bash
 # Création environnement virtuel & activation
