@@ -33,3 +33,5 @@ fastapi dev main.py
 ````
 Accès au swagger sur http://127.0.0.1:8000/docs
 Accès à la page index : http://127.0.0.1:8000/static/index.html
+Page principale (renvoie vers static) : http://127.0.0.1:8000/
+Page template: http://127.0.0.1:8000/123?q=test
