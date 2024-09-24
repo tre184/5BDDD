@@ -10,6 +10,7 @@ def test_crud1():
     assert u1.id == 99
     assert u1.name == 'goudot-99'
 
+
 def test_crud2():
     '''
     Test 2
@@ -41,5 +42,5 @@ def test_crud2():
         'email': 'test..t@gmail.com',
     }
 
-    with pytest.raises(ValidationError) as excinfo:
+    with pytest.raises(ValidationError) as excinfo :
         user2 = schema.User(**external_data2)
